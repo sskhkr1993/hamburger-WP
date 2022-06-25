@@ -1,0 +1,16 @@
+@use '../../foundation/mixin.scss'as m;
+
+.text-foot{
+  margin-top: 1.9rem;
+  padding-bottom: 11rem;
+  @include m.breakpoint(tab) {
+    margin-top: 3.2rem;
+    padding-bottom: 12rem;
+    font-size: 0.9rem;
+    }
+  @include m.breakpoint(pc) {
+    margin-top: 2.5rem;
+    padding-bottom: 15rem;
+    font-size: 0.7rem;
+    }
+}

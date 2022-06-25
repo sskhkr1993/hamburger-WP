@@ -1,0 +1,39 @@
+@use '../foundation/font.scss'as font;
+@use 'sass:math';
+
+html {
+  font-size: calc(90% + 0.5vw);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.26rem;
+}
+
+h4,h5,h6 {
+  font-size: 1.3rem;
+}
+
+body {
+  font-family: 'm1', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}

@@ -1,0 +1,16 @@
+@use '../foundation/mixin.scss'as m;
+
+.l-footer {
+  padding: 2.3rem 3.1rem 2rem 3.1rem;
+  width: 100%;
+  height: auto;
+  font-family: 'm1';
+  text-align: center;
+  background: url(../../image/front-page/footer-background.jpg) no-repeat center /cover;
+  color: #fff;
+
+  @include m.breakpoint(pc) {
+    grid-row: 4/5;
+    grid-column: 1/3;
+  }
+}

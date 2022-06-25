@@ -1,0 +1,143 @@
+@use '../../foundation/mixin.scss'as m;
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 8rem 0 8rem 2rem;
+  color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../image/front-page/hero_iphone.jpg);
+  @include m.breakpoint(tab) {
+    padding: 7rem 0 7rem 3rem;
+    background-image: url(../../image/front-page/hero.jpg);
+  }
+  @include m.breakpoint(pc) {
+    grid-row: 2/3;
+    background-image: url(../../image/front-page/hero_pc.jpg);
+  }
+
+  &__heading {
+    position: absolute;
+    margin: 0;
+    font-family: 'm1-bold';
+  }
+
+  &--search {
+    background-position: top 40% left 30%;
+    background-size: auto;
+    background-image: url(../../../image/archeive/hero--archive.jpg);
+    @include m.breakpoint(tab) {
+      padding-top: 7.5rem;
+      padding-bottom: 7.5rem;
+      background-position: top 46% left 49%;
+      background-size: 165% auto;
+    }
+    @include m.breakpoint(pc) {
+      padding-top: 5.5rem;
+      padding-bottom: 5.5rem;
+    }
+
+    &__background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      justify-content: center;
+      padding-left: 2rem;
+      height: 100%; 
+      width: 100%;
+      background-color: rgb(0,0,0,0.5);
+      @include m.breakpoint(tab) {
+        padding-left: 4.6rem;
+      }
+      @include m.breakpoint(pc) {
+        padding-left: 4rem;
+      }
+    }
+
+    &__heading{
+      font-size: 2rem;
+      @include m.breakpoint(tab) {
+        font-size: 3.3rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 2.8rem;
+      }
+    }
+
+    &__subtitle{
+      font-size: 1rem;
+      @include m.breakpoint(tab) {
+        padding-left: 1.1rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .Flexbox--column{
+    @include m.breakpoint(tab) {
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+    }
+  }
+
+  &--single{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    padding-left: 1.5rem;
+    background-image: url(../../../image/single/hero--sp.jpg);
+    @include m.breakpoint(tab) {
+      padding-top: 11rem;
+      padding-bottom: 11rem;
+      padding-left: 4.5rem;
+    }
+    @include m.breakpoint(pc) {
+      padding-top: 9.5rem;
+      padding-bottom: 9.5rem;
+      padding-left: 4rem;
+      background-image: url(../../../image/single/hero--pc.jpg);
+    }
+    &__heading{
+      font-size: 2rem;
+      @include m.breakpoint(tab) {
+        font-size: 3.3rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  &--page{
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+    padding-left: 1.5rem;
+    background-image: url(../../../image/page/hero--page.jpg);
+    @include m.breakpoint(tab) {
+      padding-top: 11rem;
+      padding-bottom: 11rem;
+      padding-left: 4.5rem;
+    }
+    @include m.breakpoint(pc) {
+      padding-top: 9.5rem;
+      padding-bottom: 9.5rem;
+      padding-left: 4rem;
+      background-image: url(../../../image/page/hero--page.jpg);
+    }
+    &__heading{
+      font-size: 2rem;
+      @include m.breakpoint(tab) {
+        font-size: 3.3rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}

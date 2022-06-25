@@ -1,0 +1,30 @@
+@use '../../foundation/mixin.scss'as m;
+
+.article {
+  color: #3C2A10;
+  padding: 1.3rem 1.3rem 2.5rem 1.3rem;
+
+  @include m.breakpoint(tab) {
+    display: grid;    
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 0;
+  }
+
+  @include m.breakpoint(pc) {
+    gap: 2.3rem;
+    margin: 3rem 2.5rem;
+  }
+
+  /*single*/
+  &--single {
+    margin-top: 1.9rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+    }
+    @include m.breakpoint(tab) {
+      margin-top: 2.5rem;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@use '../../foundation/mixin.scss'as m;
+
+.image {
+  &__outer--single {
+    margin-top: 1.9rem;
+    text-align: center;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+      }
+    @include m.breakpoint(pc) {
+      margin-top: 2.5rem;
+      }
+    }
+  &__inner--single {
+    &.Image {
+      width: 80%;
+      @include m.breakpoint(pc) {
+        width: 42%;
+        }
+      }
+    }
+  }

@@ -1,0 +1,24 @@
+@use '../../foundation/mixin.scss'as m;
+@use 'sass:math';
+
+.button {
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #707070;
+
+  @include m.breakpoint(tab) {
+    top: 8%;
+    font-size: 1.8rem;
+  }
+
+  @include m.breakpoint(pc) {
+    display: none;
+  }
+}

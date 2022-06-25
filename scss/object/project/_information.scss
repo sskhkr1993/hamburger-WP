@@ -1,0 +1,130 @@
+@use '../../foundation/mixin.scss'as m;
+
+.information {
+  color: #3C2A10;
+  &__text, &__image {
+    margin-top: 1.9rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+    }
+    @include m.breakpoint(pc) {
+      margin-top: 2.5rem;
+    }
+  }
+  &__heading{
+    &--huge /*h2*/{
+      margin-top: 1.9rem;
+      font-size: 1.8rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+        font-size: 2rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+      }
+    }
+    &--large/*h3*/ {
+      margin-top: 2.1rem;
+      font-size: 1.5rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2.5rem;
+        font-size: 1.2rem;
+      }
+    }
+    &--medium/*h4*/{
+      margin-top: 1.9rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2.5rem;
+        font-size: 0.8rem;
+      }
+    }
+    &--tiny/*h5*/{
+      margin-top: 1.9rem;
+      @include m.breakpoint(tab) {
+        margin-top: 4rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2.5rem;
+        font-size: 0.8rem;
+      }
+    }
+    &--small /*h6*/{
+      margin-top: 2.3rem;
+      @include m.breakpoint(tab) {
+        margin-top: 3.2rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2.5rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+  &__image {
+    &.Image {
+    width: 100%;
+    height: 7rem;
+    object-fit: cover;
+    object-position: 0% 100%;
+    @include m.breakpoint(tab) {
+      height: 15rem;
+      }
+    @include m.breakpoint(pc) {
+      height: 21rem;
+      }
+    }
+  }
+  &__text {
+    &.Content {
+      font-size: 1rem;
+      @include m.breakpoint(tab) {
+        font-size: 0.9rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+.quote {
+  &.Quote {
+  padding: 1.8rem 1rem 1.8rem 1.2rem;
+  margin-top: 1.8rem;
+  @include m.breakpoint(tab) {
+    padding: 2.7rem 3rem 3.2rem 2.7rem;
+    margin-top: 3.2rem;
+    }
+    @include m.breakpoint(pc) {
+      padding: 2.1rem 2.3rem 2.1rem 2.1rem;
+      margin-top: 2.5rem;
+    }
+  }
+  &__content {
+    &.Content {
+      @include m.breakpoint(tab) {
+        font-size: 0.9rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  &__footer {
+    margin-top: 1.8rem;
+    @include m.breakpoint(tab) {
+      margin-top: 3.2rem;
+      font-size: 0.9rem;
+    }
+    @include m.breakpoint(pc) {
+      margin-top: 2.5rem;
+      font-size: 0.7rem;
+    }
+  }
+}
