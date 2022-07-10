@@ -1011,8 +1011,7 @@ li {
 .menu-wrapper.is-open {
   display: block;
   position: fixed;
-  top: 0;
-  /*メニューを出現させる*/
+  top: 0; /*メニューを出現させる*/
   right: 0;
   z-index: 100;
   height: 100%;
@@ -1162,7 +1161,7 @@ li {
 @media (min-width: 1025px) {
   .hero {
     grid-row: 2/3;
-    background-image: url(../../image/front-page/hero_pc.jpg);
+    background-image: url(/image/front-page/hero_pc.jpg);
   }
 }
 .hero__heading {
@@ -1767,7 +1766,7 @@ li {
   max-width: 100%;
   height: auto;
   padding: 0.8rem 0.8rem 0.3rem 0.8rem;
-  background: url(../../../image/front-page/card__Takeout.jpg) no-repeat center/cover;
+  background: url(image/front-page/card__Takeout.jpg) no-repeat center/cover;
   /*archive,serch*/
   /*single*/
 }
@@ -2182,8 +2181,7 @@ li {
 .card-list {
   padding: 0;
   margin: 0;
-  margin-top: auto;
-  /*文字増えた時の調整用*/
+  margin-top: auto; /*文字増えた時の調整用*/
 }
 .card-list__subtitle {
   font-family: "m1-bold";

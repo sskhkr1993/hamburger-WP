@@ -19,7 +19,8 @@
     <button type="button" class="button js-button">
       Menu
     </button>
-    <h1 class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+    <h1 class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+    </h1>
     <?php get_search_form(); ?>
 
   </header>

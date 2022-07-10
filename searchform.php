@@ -1,4 +1,4 @@
-<form class="seach" id="searchform" method="get" action="<!?php echo home_url('/'); ?>">
+<form class="seach" id="searchform" method="get" action="<?php echo home_url('/'); ?>">
 <div class="seach__icon">
   <input class="seach__box" type="search" name="s" id="s">
 </div>
