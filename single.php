@@ -37,7 +37,6 @@
 
   <!--メインビジュアル-->
   <div class="hero hero--single ">
-  <img src="<?php echo get_template_directory_uri(); ?>/image/front-page/hero_pc.jpg" />
     <div class="hero--single__background Flexbox--column">
       <h1 class="hero--single__heading Heading--m1bold">h1 チーズバーガー</h1>
     </div>

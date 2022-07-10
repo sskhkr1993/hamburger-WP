@@ -1161,7 +1161,7 @@ li {
 @media (min-width: 1025px) {
   .hero {
     grid-row: 2/3;
-    background-image: url(/image/front-page/hero_pc.jpg);
+    background-image: url(image\f ront-pagehero_pc.jpg);
   }
 }
 .hero__heading {
