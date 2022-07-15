@@ -103,7 +103,7 @@
 
     <!--ここはimg-->
     <div class="image__outer--single">
-      <img class="image__inner--single Image" src="image\single\cooked-foods-750073.jpg" alt="ハンバーガーとポテトの写真">
+      <img class="image__inner--single Image" src="<?php echo get_theme_file_uri('/image\single\cooked-foods-750073.jpg'); ?>" alt="ハンバーガーとポテトの写真">
     </div>
 
     <!--ここからimgリスト-->
