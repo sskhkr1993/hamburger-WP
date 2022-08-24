@@ -9,9 +9,9 @@
   <meta name="discription" content="ハンバーガーショップのサイト">
 
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/common/ico/favicon.ico">  <!--つくってない-->
+  <meta neme="format-detection" content="telephone=no">
   <?php wp_head(); ?>
 </head>
-
 
 <body class="Wrapper" <?php body_class(); ?>>
 
@@ -24,12 +24,3 @@
     <?php get_search_form(); ?>
 
   </header>
-
-  <!--メニューの背景-->
-  <div class="menu-background"></div>
-  <!--サイドメニューpc-->
-
-    <div class="menu__heading">
-      Menu
-    </div>
-    <?php wp_nav_menu(); ?>

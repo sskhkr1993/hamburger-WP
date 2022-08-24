@@ -11,14 +11,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../image/front-page/hero_iphone.jpg);
+  background-image: url(../image/front-page/hero_iphone.jpg);
   @include m.breakpoint(tab) {
     padding: 7rem 0 7rem 3rem;
-    background-image: url(../../image/front-page/hero.jpg);
+    background-image: url(../image/front-page/hero.jpg);
   }
   @include m.breakpoint(pc) {
     grid-row: 2/3;
-    background-image: url(../../image/front-page/hero_pc.jpg);
+    background-image: url(../image/front-page/hero_pc.jpg);
   }
 
   &__heading {
@@ -30,7 +30,7 @@
   &--search {
     background-position: top 40% left 30%;
     background-size: auto;
-    background-image: url(../../../image/archeive/hero--archive.jpg);
+    background-image: url(../image/archeive/hero--archive.jpg);
     @include m.breakpoint(tab) {
       padding-top: 7.5rem;
       padding-bottom: 7.5rem;
@@ -92,7 +92,7 @@
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
     padding-left: 1.5rem;
-    background-image: url(../../../image/single/hero--sp.jpg);
+    background-image: url(../image/single/hero--sp.jpg);
     @include m.breakpoint(tab) {
       padding-top: 11rem;
       padding-bottom: 11rem;
@@ -102,7 +102,7 @@
       padding-top: 9.5rem;
       padding-bottom: 9.5rem;
       padding-left: 4rem;
-      background-image: url(../../../image/single/hero--pc.jpg);
+      background-image: url(../image/single/hero--pc.jpg);
     }
     &__heading{
       font-size: 2rem;
@@ -118,7 +118,7 @@
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
     padding-left: 1.5rem;
-    background-image: url(../../../image/page/hero--page.jpg);
+    background-image: url(../image/page/hero--page.jpg);
     @include m.breakpoint(tab) {
       padding-top: 11rem;
       padding-bottom: 11rem;
@@ -128,7 +128,7 @@
       padding-top: 9.5rem;
       padding-bottom: 9.5rem;
       padding-left: 4rem;
-      background-image: url(../../../image/page/hero--page.jpg);
+      background-image: url(../image/page/hero--page.jpg);
     }
     &__heading{
       font-size: 2rem;

@@ -34,11 +34,10 @@ function hamburger_script() {
     wp_enqueue_style( 'Roboto', '"https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"', array() ); //Webフォントの読み込み
     wp_enqueue_style( 'hamburger-hamburger', get_theme_file_uri ( 'css/style.css' ), array(),'1.0.0' ); //テーマ用CSS、ファイル読み込み
     wp_enqueue_style( 'hamburger-style', get_theme_file_uri ( '/style.css' ), array(), '1.0.0' ); //テーマデフォルトstyle.css読み込み
-    wp_enqueue_script( 'jquery', './js/jquery-3.6.0.min.js' , '', '3.4.1', true ); //jQyery本体読み込み
-    wp_enqueue_script( 'samplejs', get_theme_file_uri ('/js/humbarger.js' ), array( 'jquery' ), '1.0.0', true ); //javaScriptファイル読み込み
+    wp_enqueue_script( 'myjquery', get_theme_file_uri ('/js/jquery-3.6.0.min.js' ), '', '3.4.1', true ); //jQyery本体読み込み
+    wp_enqueue_script( 'humbargerjs', get_theme_file_uri ('/js/humbarger.js' ), array( 'myjquery' ), '1.0.0', true ); //javaScriptファイル読み込み
 }
 add_action( 'wp_enqueue_scripts', 'hamburger_script' );
-
 
     //タイトル出力
     function hamburger_title( $title ) {
@@ -50,4 +49,3 @@ add_action( 'wp_enqueue_scripts', 'hamburger_script' );
             return $title;
         }
     add_filter( 'pre_get_document_title', 'hamburger_title' );
-
