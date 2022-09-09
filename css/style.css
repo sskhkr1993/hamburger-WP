@@ -784,12 +784,11 @@ li {
   background: linear-gradient(#F2EDE9, #DED8D3);
 }
 
-.Pagination {
+/*.m-pagenation {
   display: flex;
   justify-content: space-between;
   color: #707070;
-}
-
+}*/
 .button {
   display: block;
   position: absolute;
@@ -1757,6 +1756,14 @@ li {
   }
 }
 
+/*WPclass*/
+.attachment-post-thumbnail {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .card {
   display: flex;
   justify-content: flex-end;
@@ -1767,6 +1774,14 @@ li {
   padding: 0.8rem 0.8rem 0.3rem 0.8rem;
   background: url(../image/front-page/card__Takeout.jpg) no-repeat center/cover;
   /*archive,serch*/
+  /*&__image {
+    padding: 7rem;
+    &.Image{
+      @include m.breakpoint(tab) {
+        background-position: top 10% left 10%;
+        }
+      }
+    }*/
   /*single*/
 }
 .card--second {
@@ -1841,24 +1856,6 @@ li {
 .card__figure, .card__image {
   height: 100%;
 }
-.card__image {
-  background-image: url(../../../image/archeive/card--archive.jpg);
-}
-.card__image {
-  padding: 7rem;
-}
-.card__image.Image {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
-@media (min-width: 600px) {
-  .card__image.Image {
-    background-position: top 10% left 10%;
-  }
-}
 .card__body {
   margin-right: 4.5rem;
   margin-left: 1rem;
@@ -1867,11 +1864,64 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+  /*WP*/
 }
 @media (min-width: 600px) {
   .card__body {
     margin-right: 3.2rem;
     margin-left: 1.8rem;
+  }
+}
+.card__body > h2 {
+  font-family: "m1-bold";
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card__body > h2 {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .card__body > h2 {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+}
+.card__body > p {
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  font-family: "m1";
+  line-height: 1.44;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .card__body > p {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .card__body > p {
+    font-size: 0.7rem;
   }
 }
 .card__heading {
@@ -2005,7 +2055,7 @@ li {
   height: 100%;
 }
 .card--single__image {
-  background-image: url(../../../image/single/cooked-foods-750073.jpg);
+  background-image: url(../image/single/cooked-foods-750073.jpg);
 }
 .card--single__image.Image {
   background-position: unset;
@@ -2113,7 +2163,7 @@ li {
   height: 100%;
 }
 .card--singleSecond__image {
-  background-image: url(../../../image/single/cooked-foods-750073.jpg);
+  background-image: url(../image/single/cooked-foods-750073.jpg);
 }
 .card--singleSecond__image.Image {
   background-position: unset;
@@ -2771,7 +2821,7 @@ li {
   }
 }
 
-.pagination {
+.m-pagenation__body {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2787,21 +2837,65 @@ li {
   /*pc切り替え*/
 }
 @media (min-width: 600px) {
-  .pagination {
+  .m-pagenation__body {
     justify-content: center;
     font-family: "Roboto";
     font-weight: bold;
   }
 }
-.pagination-list.Pagination {
-  margin: 0;
-  padding-left: 0;
+.m-pagenation__result {
+  display: none;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
 }
-.pagination-list__icon {
+@media (min-width: 600px) {
+  .m-pagenation__result {
+    display: block;
+    order: -1;
+  }
+}
+.m-pagenation__prev--icon, .m-pagenation__next--icon {
   width: 1.1rem;
 }
-.pagination-list__text {
+.m-pagenation__prev--text, .m-pagenation__next--text {
   margin: 0 0.5rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .m-pagenation__prev--text, .m-pagenation__next--text {
+    display: none;
+  }
+}
+.m-pagenation__prev {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .m-pagenation__prev {
+    margin: 0 0.5rem 0 1rem;
+  }
+}
+.m-pagenation__next {
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .m-pagenation__next {
+    margin-left: 0.5rem;
+  }
 }
 
 .page {
@@ -2824,13 +2918,7 @@ li {
     border-color: #707070;
   }
 }
-
-.navi-current {
-  background-color: #3C2B1C;
-  color: #fff;
-}
-
-.first {
+.page-current {
   display: none;
   /*min-widthはこれ以上は小さくならないの意*/
   /*heroのスマホ用画像*/
@@ -2839,52 +2927,17 @@ li {
   /*pc切り替え*/
 }
 @media (min-width: 600px) {
-  .first {
-    display: block;
-    margin: 0 0.5rem 0 1rem;
-  }
-}
-
-.prev, .next {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
-@media (min-width: 600px) {
-  .prev, .next {
-    display: none;
-  }
-}
-
-.last {
-  display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
-@media (min-width: 600px) {
-  .last {
-    display: block;
-    margin-left: 0.5rem;
-  }
-}
-
-.pageNumbers {
-  display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
-@media (min-width: 600px) {
-  .pageNumbers {
-    display: block;
-    order: -1;
+  .page-current {
+    display: flex;
+    justify-content: center;
+    margin: 0 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border: solid 1px;
+    border-color: #707070;
+    background-color: #3C2B1C;
+    color: #fff;
+    align-items: center;
   }
 }
 

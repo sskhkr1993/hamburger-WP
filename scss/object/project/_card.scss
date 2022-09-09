@@ -1,5 +1,12 @@
 @use '../../foundation/mixin.scss'as m;
 
+/*WPclass*/
+.attachment-post-thumbnail {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .card {
   display: flex;
   justify-content: flex-end;
@@ -66,18 +73,14 @@
       height: 100%;
   }
 
-  &__image {
-    background-image: url(../../../image/archeive/card--archive.jpg);
-  }
-
-  &__image {
+  /*&__image {
     padding: 7rem;
     &.Image{
       @include m.breakpoint(tab) {
         background-position: top 10% left 10%;
         }
       }
-    }
+    }*/
 
   &__body {
     margin-right: 4.5rem;
@@ -85,6 +88,32 @@
     @include m.breakpoint(tab) {
       margin-right: 3.2rem;
       margin-left: 1.8rem;
+    }
+    /*WP*/
+    >h2 {
+      font-family: 'm1-bold';
+      margin-top: 1.5rem;
+      font-size: 1rem;
+  
+      @include m.breakpoint(tab) {
+        font-size: 0.9rem;
+      }
+      @include m.breakpoint(pc) {
+        margin-top: 2rem;
+        font-size: 1rem;
+      }
+    }
+    >p {
+      margin-top: 0.7rem;
+      font-size: 1rem;
+      font-family: 'm1';
+      line-height: 1.44;
+      @include m.breakpoint(tab) {
+        font-size: 0.9rem;
+      }
+      @include m.breakpoint(pc) {
+        font-size: 0.7rem;
+      }
     }
   }
 
@@ -147,6 +176,7 @@
     }
   }
 
+
   /*single*/
   &--single{
     &.Grid{
@@ -160,7 +190,7 @@
       height: 100%;
     }
     &__image {
-      background-image: url(../../../image/single/cooked-foods-750073.jpg);
+      background-image: url(../image/single/cooked-foods-750073.jpg);
       &.Image{
         background-position: unset;
         background-size: contain;
@@ -215,7 +245,7 @@
       height: 100%;
       }
     &__image {
-      background-image: url(../../../image/single/cooked-foods-750073.jpg);
+      background-image: url(../image/single/cooked-foods-750073.jpg);
     &.Image{
       background-position: unset;
       background-size: contain;

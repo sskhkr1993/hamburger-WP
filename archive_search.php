@@ -1,125 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
+<?php get_header(); ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hamburger</title>
-  <meta name="discription" content="ハンバーガーショップのサイト">
-
-  <!--CSS関係-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-  <!--google font-->
-  <link rel="stylesheet" href="style.css">
-  <!--CSS-->
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-
-<body class="Wrapper">
-  <!--header-->
-  <header class="l-header">
-    <button type="button" class="button js-button">
-      Menu
-    </button>
-    <p class="logo logo--small">Hamburger</p>
-    <div class="seach">
-      <div class="seach__icon">
-        <input type="search" class="seach__box">
-      </div>
-      <input type="submit" value="検索" class="seach__submit">
-    </div>
-
-  </header>
-
-  <!--メニューの背景-->
-  <div class="menu-background"></div>
-  <!--サイドメニューpc-->
-  <nav class="menu-wrapper--pc">
-    <div class="menu">
-      <div class="menu__heading">
-        Menu
-      </div>
-
-      <ul class="menu-list">
-        <li class="menu-list__item">バーガー
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">ハンバーガー</li>
-            <li class="menu-list__item--second">チーズバーガー</li>
-            <li class="menu-list__item--second">テリヤキバーガー</li>
-            <li class="menu-list__item--second">アボカドバーガー</li>
-            <li class="menu-list__item--second">フィッシュバーガー</li>
-            <li class="menu-list__item--second">ベーコンバーガー</li>
-            <li class="menu-list__item--second">チキンバーガー</li>
-          </ul>
-        </li>
-        <li class="menu-list__item">サイド
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">ポテト</li>
-            <li class="menu-list__item--second">サラダ</li>
-            <li class="menu-list__item--second">ナゲット</li>
-            <li class="menu-list__item--second">コーン</li>
-          </ul>
-        </li>
-        <li class="menu-list__item">ドリンク
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">コーラ</li>
-            <li class="menu-list__item--second">ファンタ</li>
-            <li class="menu-list__item--second">オレンジ</li>
-            <li class="menu-list__item--second">アップル</li>
-            <li class="menu-list__item--second">紅茶（Ice/Hot）</li>
-            <li class="menu-list__item--second">コーヒー（Ice/Hot）</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!--サイドメニュー-->
-  <nav class="menu-wrapper">
-    <div class="menu">
-      <div class="menu__heading">
-        Menu
-      </div>
-      <button type="button" class="menu-button">
-        <span class="menu-button__close js-button">×ボタン</span>
-      </button>
-      <ul class="menu-list">
-        <li class="menu-list__item">バーガー
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">ハンバーガー</li>
-            <li class="menu-list__item--second">チーズバーガー</li>
-            <li class="menu-list__item--second">テリヤキバーガー</li>
-            <li class="menu-list__item--second">アボカドバーガー</li>
-            <li class="menu-list__item--second">フィッシュバーガー</li>
-            <li class="menu-list__item--second">ベーコンバーガー</li>
-            <li class="menu-list__item--second">チキンバーガー</li>
-          </ul>
-        </li>
-        <li class="menu-list__item">サイド
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">ポテト</li>
-            <li class="menu-list__item--second">サラダ</li>
-            <li class="menu-list__item--second">ナゲット</li>
-            <li class="menu-list__item--second">コーン</li>
-          </ul>
-        </li>
-        <li class="menu-list__item">ドリンク
-          <ul class="menu-list--second">
-            <li class="menu-list__item--second">コーラ</li>
-            <li class="menu-list__item--second">ファンタ</li>
-            <li class="menu-list__item--second">オレンジ</li>
-            <li class="menu-list__item--second">アップル</li>
-            <li class="menu-list__item--second">紅茶（Ice/Hot）</li>
-            <li class="menu-list__item--second">コーヒー（Ice/Hot）</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </nav>
+<?php get_sidebar(); ?> 
 
   <!--メインビジュアル-->
   <div class="hero hero--search ">
@@ -142,6 +23,34 @@
     </section>
 
     <!--ここからカード-->
+<?php // ブログの一覧を表示する start ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <article class="blog-list__list-item">
+        <a href="<?php the_permalink(); ?>" class="blog-item">
+            <?php // アイキャッチを表示させる start ?>    
+            <div class="blog-item__thumbnail">
+                <?php if(has_post_thumbnail()): ?>
+                <img class="blog-item__thumbnail-image" src="<?php the_post_thumbnail_url('large'); ?>">
+                <?php endif; ?>
+            </div>
+            <?php // アイキャッチを表示させる end ?>
+            <div class="blog-item__content">
+                <?php // タイトルを表示させる start ?>
+                <h3 class="blog-item__title"><?php the_title(); ?></h3>
+                <?php // タイトルを表示させる end ?>
+                <?php // 抜粋を表示させる start ?>
+                <h3 class="blog-item__read"><?php the_excerpt(); ?></h3>
+                <?php // 抜粋を表示させる end ?>
+                <div class="blog-item__button">
+                    <span class="blog-item__button-more">記事を読む</span>
+                </div>
+            </div>
+        </a>
+    </article>
+<?php endwhile; endif; ?>
+<?php // ブログの一覧を表示する end ?>
+
+
     <div class="article--archive">
       <dl>
         <article class="card--archive Card Background Grid">
@@ -546,20 +455,4 @@
   </div>
 </main>
 
-  <!--footer-->
-  <footer class="l-footer">
-    <div class="footer">
-      <a href="#" class="footer__list">ショップ情報 |</a>
-      <a href="#" class="footer__list">ヒストリー</a>
-    </div>
-    <p class="copyright">Copyright: RaiseTech</p>
-  </footer>
-
-  <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
-  <script type="text/javascript" src="/js/humbarger.js"></script>
-  <script type="text/javascript" src="/js/paginathing.js"></script>
-  <script type="text/javascript" src="/js/paginathing.min.js"></script>
-  <script type="text/javascript" src="/js/pagination.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>

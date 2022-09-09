@@ -35,7 +35,7 @@
       </figure>
 
       <div class="information__image-outer">
-        <img class="information__image Image" src="image\single\cooked-foods-750073.jpg" alt="ハンバーガーとポテトの写真">
+        <img class="information__image Image" src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="ハンバーガーとポテトの写真">
       </div>
     </section>
 
@@ -77,31 +77,31 @@
     <div class="image-list__wrapper">
       <ul class="image-list Grid">
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
         <li class="image-list__item">
-          <img src="image\single\cooked-foods-750073.jpg" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/image\single\cooked-foods-750073.jpg" alt="">
         </li>
       </ul>
     </div>

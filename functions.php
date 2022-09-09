@@ -49,3 +49,67 @@ add_action( 'wp_enqueue_scripts', 'hamburger_script' );
             return $title;
         }
     add_filter( 'pre_get_document_title', 'hamburger_title' );
+
+    // 投稿のアーカイブページを作成する
+function post_has_archive( $args, $post_type ) {
+    if ( 'post' == $post_type ) {
+        $args['rewrite'] = true; // リライトを有効にする
+        $args['has_archive'] = 'archive'; //記事一覧ページのスラッグ名
+        }
+    return $args;
+}
+add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+
+
+//pagination
+function pagenation($pages = '', $range = 2){
+    $showitems = ($range * 1)+1;
+    global $paged;
+    if(empty($paged)) $paged = 1;
+    if($pages == ''){
+        global $wp_query;
+        $pages = $wp_query->max_num_pages;
+        if(!$pages){
+            $pages = 1;
+        }
+    }
+    if(1 != $pages){
+        // 画像を使う時用に、テーマのパスを取得
+        $img_pass = get_template_directory_uri();
+        echo "<nav class=\"m-pagenation\">";
+        // ページ番号を出力
+        echo "<ul class=\"m-pagenation__body\">\n";
+            // 「1/2」表示 現在のページ数 / 総ページ数
+            echo "<li class=\"m-pagenation__result\">Page". $paged."/". $pages."</li>";
+        
+            // 「前へ」を表示
+            if($paged > 1) echo 
+            "<li class=\"m-pagenation__prev\">
+                <a href='".get_pagenum_link($paged - 1)."'>
+                    <img class=\"m-pagenation__prev--icon\" src='$img_pass/image\archive_search\pagination-pre.jpg'>
+                    <span class=\"m-pagenation__prev--text\">前へ</span>
+                </a>
+            </li>";
+            for ($i=1; $i <= $pages; $i++){
+                if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems )){
+                    echo ($paged == $i)? "<li class=\"page-current\">".$i."</li>": // 現在のページの数字はリンク無し
+                        "<li class=\"page\"><a href='".get_pagenum_link($i)."'>".$i."</a></li>";
+                }
+            }
+            // [...] 表示
+            // if(($paged + 4 ) <ul $pages){
+            //     echo "<li class=\"notNumbering\">...</li>";
+            //     echo "<li><a href='".get_pagenum_link($pages)."'>".$pages."</a></li>";
+            // }
+            // 「次へ」を表示
+            if($paged < $pages) echo    
+            "<li class=\"m-pagenation__next\">
+                <a href='".get_pagenum_link($paged + 1)."'>
+                    <span class=\"m-pagenation__next--text\">次へ</span>
+                    <img class=\"m-pagenation__next--icon\" src='$img_pass/image\archive_search\pagination-next.jpg'>
+                </a>
+            </li>";
+            echo "</ul>\n";
+        echo "</nav>\n";
+    }
+}
