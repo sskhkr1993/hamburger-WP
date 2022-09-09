@@ -20,7 +20,12 @@
 
 <!--ここからメインコンテンツ-->
 <main class="l-main u-padding">
-
+  <section class="introduction">
+    <h2 class="introduction__heading Heading--m1bold">小見出しが入ります</h2>
+    <p class="introduction__text Content">
+      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+    </p>
+  </section>
   <!--ここからカード-->
   <div class="article--archive">
     <?php // ブログの一覧を表示する start 
@@ -34,12 +39,6 @@
         <!--4.↓ここに出力したい処理などを記述-->
 
         <!--ここからセクション-->
-        <section class="introduction">
-          <h2 class="introduction__heading Heading--m1bold">小見出しが入ります</h2>
-          <p class="introduction__text Content">
-            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-          </p>
-        </section>
         <dl>
           <article class="card--archive Card Background Grid">
             <div class="card__header">
