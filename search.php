@@ -1,10 +1,3 @@
-<?php
-global $wp_query;
-$post_obj = $wp_query->get_queried_object();
-$slug = $post_obj->post_name;  //投稿や固定ページのスラッグ
-$cat_slug = $post_obj->category_nicename;  //カテゴリーアーカイブページのスラッグ
-$tag_slug = $post_obj->slug;  //タグアーカイブページスラッグ
-?>
 <?php get_header(); ?>
 
 <?php get_sidebar(); ?>
@@ -13,21 +6,20 @@ $tag_slug = $post_obj->slug;  //タグアーカイブページスラッグ
 <div class="hero hero--search ">
   <div class="hero--search__background Flexbox--column">
     <h1 class="hero--search__heading Heading--bold">Menu:</h1>
-    <h2 class="hero--search__subtitle Heading--m1bold"><?php echo $cat_slug = $post_obj->category_nicename; ?></h2>
+    <h2 class="hero--search__subtitle Heading--m1bold">
+      <?php
+      if (isset($_GET['s']) && empty($_GET['s'])) {
+        echo '検索キーワード未入力'; // 検索キーワードが未入力の場合のテキストを指定
+      } else {
+        echo $_GET['s']; // 検索キーワードと該当件数を表示
+      }
+      ?>
+    </h2>
   </div>
 </div>
 
 <!--ここからメインコンテンツ-->
 <main class="l-main u-padding">
-
-  <!--ここからセクション-->
-  <section class="introduction">
-    <h2 class="introduction__heading Heading--m1bold">小見出しが入ります</h2>
-    <p class="introduction__text Content">
-      テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
-    </p>
-    </p>
-  </section>
 
   <!--ここからカード-->
   <div class="article--archive">
@@ -41,6 +33,13 @@ $tag_slug = $post_obj->slug;  //タグアーカイブページスラッグ
 
         <!--4.↓ここに出力したい処理などを記述-->
 
+        <!--ここからセクション-->
+        <section class="introduction">
+          <h2 class="introduction__heading Heading--m1bold">小見出しが入ります</h2>
+          <p class="introduction__text Content">
+            テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
+          </p>
+        </section>
         <dl>
           <article class="card--archive Card Background Grid">
             <div class="card__header">
@@ -70,12 +69,11 @@ $tag_slug = $post_obj->slug;  //タグアーカイブページスラッグ
           </article>
         </dl>
 
-
       <?php endwhile;
     //5.繰り返し処理ここまで。投稿データがまだあればwhileに戻る。なければ終了
     else :  //6.投稿データがなければ
       ?>
-      <p>表示する記事がありません</p>
+      <p class="introduction__not-found Heading--m1bold">表示する記事がありません</p>
     <?php //7.ない時の処理
     endif;   //8.条件分岐終了
     ?>

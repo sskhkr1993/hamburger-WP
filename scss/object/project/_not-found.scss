@@ -1,6 +1,6 @@
 @use '../../foundation/mixin.scss'as m;
 
-.introduction {
+.not-found {
   color: #3C2A10;
   
   &__heading {
@@ -9,21 +9,28 @@
     @include m.breakpoint(tab) {
       font-size: 1.9rem;
     }
-  }
-
-  &__text {
-    padding-top: 2rem;
-
-    @include m.breakpoint(tab) {
-      padding-top: 1.4rem;
-      font-size: 0.9rem;
+    @include m.breakpoint(pc) {
+      font-size: 1.7rem;
     }
   }
-  &__not-found {
+
+  &__text, &__error_url {
     padding-top: 2rem;
     @include m.breakpoint(tab) {
       padding-top: 1.4rem;
       font-size: 0.9rem;
     }
+  }
+  &__search {
+    padding-top: 2rem;
+    @include m.breakpoint(tab) {
+      padding-top: 1.4rem;
+    }
+  }
+
+  &__home_url:hover {
+    font-family: 'm1-bold';
+    font-size: 1rem;
+    line-height: 1.44;
   }
 }

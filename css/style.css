@@ -673,6 +673,7 @@ li {
 }
 
 .l-main {
+  min-height: 50rem;
   grid-row: 3/4;
   background-color: #FFFDFA;
 }
@@ -869,6 +870,9 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
+}
+.seach__box :active, .seach__box :focus {
+  background-color: #fff;
 }
 @media (min-width: 600px) {
   .seach__box {
@@ -1426,6 +1430,20 @@ li {
     font-size: 0.9rem;
   }
 }
+.introduction__not-found {
+  padding-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .introduction__not-found {
+    padding-top: 1.4rem;
+    font-size: 0.9rem;
+  }
+}
 
 .information {
   color: #3C2A10;
@@ -1700,6 +1718,66 @@ li {
     margin-top: 2.5rem;
     font-size: 0.7rem;
   }
+}
+
+.not-found {
+  color: #3C2A10;
+}
+.not-found__heading {
+  padding-top: 2rem;
+  font-size: 1.7rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .not-found__heading {
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 1025px) {
+  .not-found__heading {
+    font-size: 1.7rem;
+  }
+}
+.not-found__text, .not-found__error_url {
+  padding-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .not-found__text, .not-found__error_url {
+    padding-top: 1.4rem;
+    font-size: 0.9rem;
+  }
+}
+.not-found__search {
+  padding-top: 2rem;
+  /*min-widthはこれ以上は小さくならないの意*/
+  /*heroのスマホ用画像*/
+  /*タブレットの切り替え*/
+  /*heroのタブレット用画像*/
+  /*pc切り替え*/
+}
+@media (min-width: 600px) {
+  .not-found__search {
+    padding-top: 1.4rem;
+  }
+}
+.not-found__home_url:hover {
+  font-family: "m1-bold";
+  font-size: 1rem;
+  line-height: 1.44;
 }
 
 .article {
@@ -2917,6 +2995,10 @@ li {
     border: solid 1px;
     border-color: #707070;
   }
+}
+.page > a {
+  display: block;
+  padding: 0.3rem 0.8rem;
 }
 .page-current {
   display: none;

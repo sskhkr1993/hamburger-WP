@@ -5,7 +5,7 @@
   <!--メインビジュアル-->
   <div class="hero hero--page ">
     <div class="hero--page__background Flexbox--column">
-      <h1 class="hero--page__heading Heading--m1bold">ショップについて</h1>
+      <h1 class="hero--page__heading Heading--m1bold"><?php the_title(); ?></h1>
     </div>
   </div>
 

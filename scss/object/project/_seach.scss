@@ -17,6 +17,10 @@
     border-style: solid;
     border-color: #707070;
     font-size: 1.1rem;
+      :active, :focus{
+        background-color: #fff;
+      }
+
   
     @include m.breakpoint(tab) {
       width: 18rem;

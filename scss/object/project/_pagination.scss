@@ -60,6 +60,10 @@
       border-color: #707070;
     
   }
+  >a {
+    display: block;
+    padding: 0.3rem 0.8rem;
+  }
   &-current {
     display: none;
     @include m.breakpoint(tab) {

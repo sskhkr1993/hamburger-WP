@@ -5,7 +5,7 @@
   <!--メインビジュアル-->
   <div class="hero hero--single ">
     <div class="hero--single__background Flexbox--column">
-      <h1 class="hero--single__heading Heading--m1bold">h1 チーズバーガー</h1>
+      <h1 class="hero--single__heading Heading--m1bold"><?php the_title(); ?></h1>
     </div>
   </div>
 
