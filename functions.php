@@ -12,11 +12,10 @@ function custom_theme_support()
     )); //吐き出されるコード/タグをデフォルトのXHTMLからHTML5(Livin Standard)に
     add_theme_support('post-thumbnails'); //アイキャッチ機能の有効化
     add_theme_support('title-tag');     //管理画面からタイトルタグ登録可能に
-    add_theme_support('menus');         //カスタムメニューの有効化
     add_theme_support('post-thumbnails'); //アイキャッチ
     register_nav_menus(array(
         'hamburger_menu' => esc_html__('hamburger menu', 'hamburger'),
-        'footer_nav' => esc_html__('footer navigation', 'hamburger'),
+        'footer_nav' => esc_html__('footer navigation', 'hamburger'), //複数メニューの登録
     ));
     add_theme_support('editor-styles');   //エディタスタイルの有効化
     add_editor_style();

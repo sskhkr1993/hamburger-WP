@@ -31,7 +31,7 @@
     </div>
 
     <div class="not-found__text Content">
-      <a class="not-found__home_url" href="<?php echo home_url(); ?>">⇒トップページへ戻る</a>
+      <a class="not-found__home_url" href="<?php echo esc_url(home_url('/')) ; ?>">⇒トップページへ戻る</a>
     </div>
   </section>
 

@@ -8,7 +8,7 @@
 
   <meta name="discription" content="ハンバーガーショップのサイト">
 
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/common/ico/favicon.ico">  <!--つくってない-->
+  <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/images/common/ico/favicon.ico">  <!--つくってない-->
   <meta neme="format-detection" content="telephone=no">
   <?php wp_head(); ?>
 </head>
