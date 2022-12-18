@@ -18,6 +18,7 @@ function custom_theme_support()
         'footer_nav' => esc_html__('footer navigation', 'hamburger'), //複数メニューの登録
     ));
     add_theme_support('editor-styles');   //エディタスタイルの有効化
+    add_theme_support( 'automatic-feed-links' ); //フィードを使えるようにする
     add_editor_style();
 }
 add_action('after_setup_theme', 'custom_theme_support');
