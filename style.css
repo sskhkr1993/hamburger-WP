@@ -10,4 +10,5 @@ License: GNU General Public License v3.0 //ライセンス（WordPressのテー�
 License URI: http://www.gnu.org/licenses/gpl-3.0.html //ライセンスの URL
 Text Domain: hamburger   //テキストドメイン（翻訳させたい箇所を指示する際に使います。テーマディレクトリ名を入れます。）
 Tested up to: 6.1.1
+Requires PHP: 7.4.33
 */
