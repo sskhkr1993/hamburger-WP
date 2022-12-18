@@ -14,7 +14,7 @@
 </head>
 
 <body class="Wrapper" <?php body_class(); ?>>
-
+<?php wp_body_open(); ?>
   <header class="l-header">
     <button type="button" class="button js-button">
       Menu
