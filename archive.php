@@ -70,7 +70,7 @@ $tag_slug = $post_obj->slug;  //タグアーカイブページスラッグ
           </article>
         </dl>
 
-
+        <?php wp_link_pages(); //エラー処理?>  
       <?php endwhile;
     //5.繰り返し処理ここまで。投稿データがまだあればwhileに戻る。なければ終了
     else :  //6.投稿データがなければ
