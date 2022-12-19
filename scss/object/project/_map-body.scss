@@ -1,4 +1,4 @@
-@use '../../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss' as m;
 
 .map-body {
   position: relative;
@@ -8,10 +8,6 @@
   height: auto;
   background-color: rgb(0, 0, 0, 0.4);
   padding: 2.1rem 1.7rem 2.1rem 2.3rem;
-
-  @include m.breakpoint(tab) {
-    padding: 2.1rem 1.7rem 2.1rem 2.3rem;
-  }
 
   @include m.breakpoint(pc) {
     padding: 3.4rem 5rem 3.4rem 4rem;
@@ -25,7 +21,7 @@
     height: 2px;
     line-height: 1.5;
     background-color: #fff;
-  
+
     @include m.breakpoint(tab) {
       margin: 1.7rem 0 1.8rem 0;
     }
@@ -36,7 +32,7 @@
     font-size: 0.8rem;
     line-height: 2.35;
     color: #fff;
-  
+
     @include m.breakpoint(pc) {
       font-size: 0.75rem;
     }
@@ -46,9 +42,9 @@
     font-family: 'm1-bold';
     font-size: 1.7rem;
     color: #fff;
-  
+
     @include m.breakpoint(pc) {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
   }
 }

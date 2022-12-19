@@ -2822,16 +2822,6 @@ li {
   /*タブレットの切り替え*/
   /*heroのタブレット用画像*/
   /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
-@media (min-width: 600px) {
-  .map-body {
-    padding: 2.1rem 1.7rem 2.1rem 2.3rem;
-  }
 }
 @media (min-width: 1025px) {
   .map-body {
