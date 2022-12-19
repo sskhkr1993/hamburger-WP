@@ -1,10 +1,10 @@
-@use '../../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss' as m;
 
 .Wrapper {
   display: block;
   position: relative;
-  
-  &.is-open{
+
+  &.is-open {
     overflow-y: hidden;
     position: fixed;
     top: 0;
@@ -13,6 +13,7 @@
     left: 0;
     width: 100%;
   }
+
   @include m.breakpoint(pc) {
     width: 100%;
     display: grid;
