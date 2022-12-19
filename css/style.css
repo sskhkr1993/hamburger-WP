@@ -1851,14 +1851,6 @@ li {
   padding: 0.8rem 0.8rem 0.3rem 0.8rem;
   background: url(../image/front-page/card__Takeout.jpg) no-repeat center/cover;
   /*archive,serch*/
-  /*&__image {
-    padding: 7rem;
-    &.Image{
-      @include m.breakpoint(tab) {
-        background-position: top 10% left 10%;
-        }
-      }
-    }*/
   /*single*/
 }
 .card--second {
