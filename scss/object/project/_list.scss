@@ -1,31 +1,36 @@
-@use '../../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss' as m;
 
 .image-list {
   margin: 0;
   padding: 0;
+
   &.Grid {
     gap: 1.2rem;
     grid-template-columns: none;
     grid-template-rows: none;
+
     @include m.breakpoint(tab) {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: auto auto;
       gap: 0.9rem;
-      }
+    }
+
     @include m.breakpoint(pc) {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto auto auto;
-      gap: 0.9rem;
-      }
     }
+  }
+
   &__wrapper {
     margin-top: 2rem;
+
     @include m.breakpoint(tab) {
       margin-top: 13rem;
-      }
+    }
+
     @include m.breakpoint(pc) {
       margin-top: 2.5rem;
-      }
+    }
   }
 }
 
@@ -33,11 +38,12 @@
   @include m.breakpoint(tab) {
     margin-left: 4rem;
     font-size: 0.9rem;
-    }
+  }
+
   @include m.breakpoint(pc) {
     margin-left: 2rem;
     font-size: 0.7rem;
-    }
+  }
 }
 
 .decimal-list {
@@ -45,22 +51,28 @@
   margin-top: 1.2rem;
   padding-left: 2rem;
   list-style: decimal;
+
   @include m.breakpoint(pc) {
     margin-top: 0.8rem;
   }
+
   &__outer {
     margin-top: 2rem;
+
     @include m.breakpoint(tab) {
       margin-top: 3.2rem;
     }
+
     @include m.breakpoint(pc) {
       margin-top: 2.5rem;
     }
   }
+
   &--second {
     margin-top: 0.8rem;
     padding-left: 1.5rem;
   }
+
   &__item {
     list-style: decimal;
   }
@@ -70,18 +82,23 @@
   margin: 0;
   margin-top: 1.2rem;
   padding-left: 0.5rem;
+
   @include m.breakpoint(pc) {
     margin-top: 0.8rem;
   }
+
   &__outer {
     margin-top: 3.7rem;
+
     @include m.breakpoint(tab) {
       margin-top: 3.2rem;
-      }
+    }
+
     @include m.breakpoint(pc) {
       margin-top: 2.5rem;
     }
   }
+
   &--second {
     margin-top: 0.8rem;
     padding-left: 1.2rem;
