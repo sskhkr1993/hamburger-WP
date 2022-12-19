@@ -628,11 +628,6 @@ li {
   text-align: center;
   background: url(../image/front-page/footer-background.jpg) no-repeat center/cover;
   color: #fff;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .l-footer {
@@ -647,16 +642,6 @@ li {
   text-align: center;
   color: #707070;
   padding: 4rem 1.5rem 2.5rem 1.5rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .l-header {
@@ -685,11 +670,6 @@ li {
 .Wrapper {
   display: block;
   position: relative;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 .Wrapper.is-open {
   overflow-y: hidden;
@@ -800,16 +780,6 @@ li {
   background: transparent;
   border-color: transparent;
   color: #707070;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .button {
@@ -826,11 +796,6 @@ li {
 .logo {
   font-family: "Roboto";
   font-weight: bold;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .logo {
@@ -859,16 +824,6 @@ li {
   border-style: solid;
   border-color: #707070;
   font-size: 1.1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 .seach__box :active, .seach__box :focus {
   background-color: #fff;
@@ -896,11 +851,6 @@ li {
   width: 24px;
   height: 24px;
   background: url(../image/front-page/seach_icon.jpg) no-repeat center center/auto 100%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .seach__icon::after {
@@ -918,16 +868,6 @@ li {
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .seach__submit {
@@ -978,24 +918,9 @@ li {
   width: 87%;
   background-color: #F2EDE9;
   transition: all 0.6s;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 .menu-wrapper--pc {
   display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .menu-wrapper--pc {
@@ -1048,11 +973,6 @@ li {
 }
 .menu__heading {
   display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .menu__heading {
@@ -1070,11 +990,6 @@ li {
 .menu-button__close {
   /*×ボタン*/
   font-size: 0;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 .menu-button__close::before, .menu-button__close::after {
   /*上下線*/
@@ -1142,16 +1057,6 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../image/front-page/hero_iphone.jpg);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero {
@@ -1174,16 +1079,6 @@ li {
   background-position: top 40% left 30%;
   background-size: auto;
   background-image: url(../image/archeive/hero--archive.jpg);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--search {
@@ -1208,16 +1103,6 @@ li {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--search__background {
@@ -1231,16 +1116,6 @@ li {
 }
 .hero--search__heading {
   font-size: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--search__heading {
@@ -1254,16 +1129,6 @@ li {
 }
 .hero--search__subtitle {
   font-size: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--search__subtitle {
@@ -1274,13 +1139,6 @@ li {
   .hero--search__subtitle {
     font-size: 0.7rem;
   }
-}
-.hero .Flexbox--column {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero .Flexbox--column {
@@ -1294,16 +1152,6 @@ li {
   padding-bottom: 5.5rem;
   padding-left: 1.5rem;
   background-image: url(../image/single/hero--sp.jpg);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--single {
@@ -1322,16 +1170,6 @@ li {
 }
 .hero--single__heading {
   font-size: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--single__heading {
@@ -1348,16 +1186,6 @@ li {
   padding-bottom: 5.5rem;
   padding-left: 1.5rem;
   background-image: url(../image/page/hero--page.jpg);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--page {
@@ -1376,16 +1204,6 @@ li {
 }
 .hero--page__heading {
   font-size: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .hero--page__heading {
@@ -1404,11 +1222,6 @@ li {
 .introduction__heading {
   padding-top: 2rem;
   font-size: 1.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .introduction__heading {
@@ -1417,11 +1230,6 @@ li {
 }
 .introduction__text {
   padding-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .introduction__text {
@@ -1431,11 +1239,6 @@ li {
 }
 .introduction__not-found {
   padding-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .introduction__not-found {
@@ -1449,16 +1252,6 @@ li {
 }
 .information__text, .information__image {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__text, .information__image {
@@ -1473,16 +1266,6 @@ li {
 .information__heading--huge {
   margin-top: 1.9rem;
   font-size: 1.8rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__heading--huge {
@@ -1499,16 +1282,6 @@ li {
 .information__heading--large {
   margin-top: 2.1rem;
   font-size: 1.5rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__heading--large {
@@ -1523,16 +1296,6 @@ li {
 }
 .information__heading--medium {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__heading--medium {
@@ -1547,16 +1310,6 @@ li {
 }
 .information__heading--tiny {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__heading--tiny {
@@ -1571,16 +1324,6 @@ li {
 }
 .information__heading--small {
   margin-top: 2.3rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__heading--small {
@@ -1600,16 +1343,6 @@ li {
      object-fit: cover;
   -o-object-position: 0% 100%;
      object-position: 0% 100%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__image.Image {
@@ -1623,16 +1356,6 @@ li {
 }
 .information__text.Content {
   font-size: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .information__text.Content {
@@ -1648,16 +1371,6 @@ li {
 .quote.Quote {
   padding: 1.8rem 1rem 1.8rem 1.2rem;
   margin-top: 1.8rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .quote.Quote {
@@ -1671,18 +1384,6 @@ li {
     margin-top: 2.5rem;
   }
 }
-.quote__content.Content {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
 @media (min-width: 600px) {
   .quote__content.Content {
     font-size: 0.9rem;
@@ -1695,16 +1396,6 @@ li {
 }
 .quote__footer {
   margin-top: 1.8rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .quote__footer {
@@ -1725,16 +1416,6 @@ li {
 .not-found__heading {
   padding-top: 2rem;
   font-size: 1.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .not-found__heading {
@@ -1748,11 +1429,6 @@ li {
 }
 .not-found__text, .not-found__error_url {
   padding-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .not-found__text, .not-found__error_url {
@@ -1762,11 +1438,6 @@ li {
 }
 .not-found__search {
   padding-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .not-found__search {
@@ -1782,16 +1453,6 @@ li {
 .article {
   color: #3C2A10;
   padding: 1.3rem 1.3rem 2.5rem 1.3rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
   /*single*/
 }
 @media (min-width: 600px) {
@@ -1811,16 +1472,6 @@ li {
 }
 .article--single {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .article--single {
@@ -1856,11 +1507,6 @@ li {
 .card--second {
   margin-top: 1.1rem;
   background: url(../image/front-page/card__eatin.jpg) no-repeat center/cover;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--second {
@@ -1880,11 +1526,6 @@ li {
   font-weight: bold;
   line-height: 1.31;
   color: #EAEAEA;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card__title {
@@ -1897,24 +1538,12 @@ li {
 .card--archive.Grid {
   display: block;
   margin-top: 1.2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--archive.Grid {
     display: grid;
     margin-top: 2rem;
   }
-}
-.card__header {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__header {
@@ -1928,11 +1557,6 @@ li {
 .card__body {
   margin-right: 4.5rem;
   margin-left: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
   /*WP*/
 }
 @media (min-width: 600px) {
@@ -1945,16 +1569,6 @@ li {
   font-family: "m1-bold";
   margin-top: 1.5rem;
   font-size: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__body > h2 {
@@ -1972,16 +1586,6 @@ li {
   font-size: 1rem;
   font-family: "m1";
   line-height: 1.44;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__body > p {
@@ -1996,16 +1600,6 @@ li {
 .card__heading {
   margin-top: 1.9rem;
   font-size: 1.3rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__heading {
@@ -2021,16 +1615,6 @@ li {
 .card__subtitle {
   margin-top: 1.5rem;
   font-size: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__subtitle {
@@ -2045,16 +1629,6 @@ li {
 }
 .card__content {
   margin-top: 0.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__content {
@@ -2070,16 +1644,6 @@ li {
   margin-top: 2.5rem;
   margin-bottom: 2.6rem;
   text-align: center;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card__footer {
@@ -2094,11 +1658,6 @@ li {
 }
 .card__link.Link {
   padding: 0.6rem 2.6rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card__link.Link {
@@ -2109,11 +1668,6 @@ li {
 .card--single.Grid {
   grid-template-columns: 46% 54%;
   grid-template-rows: auto;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card--single.Grid {
@@ -2129,11 +1683,6 @@ li {
 .card--single__image.Image {
   background-position: unset;
   background-size: contain;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card--single__image.Image {
@@ -2144,16 +1693,6 @@ li {
 }
 .card--single__body {
   margin-left: 0.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--single__body {
@@ -2164,18 +1703,6 @@ li {
   .card--single__body {
     margin-left: 0.8rem;
   }
-}
-.card--single__content.Content {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--single__content.Content {
@@ -2189,16 +1716,6 @@ li {
 }
 .card--singleSecond {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--singleSecond {
@@ -2213,11 +1730,6 @@ li {
 .card--singleSecond.Grid {
   grid-template-columns: 54% 46%;
   grid-template-rows: auto;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card--singleSecond.Grid {
@@ -2237,11 +1749,6 @@ li {
 .card--singleSecond__image.Image {
   background-position: unset;
   background-size: contain;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card--singleSecond__image.Image {
@@ -2252,16 +1759,6 @@ li {
 }
 .card--singleSecond__body {
   margin-right: 0.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--singleSecond__body {
@@ -2272,18 +1769,6 @@ li {
   .card--singleSecond__body {
     margin-right: 0.8rem;
   }
-}
-.card--singleSecond__content.Content {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .card--singleSecond__content.Content {
@@ -2310,11 +1795,6 @@ li {
   width: 100%;
   height: auto;
   background-color: rgba(255, 255, 255, 0.8);
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .card-list__item {
@@ -2330,16 +1810,6 @@ li {
 .image__outer--single {
   margin-top: 1.9rem;
   text-align: center;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .image__outer--single {
@@ -2353,11 +1823,6 @@ li {
 }
 .image__inner--single.Image {
   width: 80%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .image__inner--single.Image {
@@ -2373,16 +1838,6 @@ li {
   gap: 1.2rem;
   grid-template-columns: none;
   grid-template-rows: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .image-list.Grid {
@@ -2399,16 +1854,6 @@ li {
 }
 .image-list__wrapper {
   margin-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .image-list__wrapper {
@@ -2421,18 +1866,6 @@ li {
   }
 }
 
-.list-wrapper {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
 @media (min-width: 600px) {
   .list-wrapper {
     margin-left: 4rem;
@@ -2451,11 +1884,6 @@ li {
   margin-top: 1.2rem;
   padding-left: 2rem;
   list-style: decimal;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .decimal-list {
@@ -2464,16 +1892,6 @@ li {
 }
 .decimal-list__outer {
   margin-top: 2rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .decimal-list__outer {
@@ -2497,11 +1915,6 @@ li {
   margin: 0;
   margin-top: 1.2rem;
   padding-left: 0.5rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .text-list {
@@ -2510,16 +1923,6 @@ li {
 }
 .text-list__outer {
   margin-top: 3.7rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .text-list__outer {
@@ -2539,16 +1942,6 @@ li {
 .code {
   margin-top: 1.9rem;
   background-color: #F5F5F5;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .code {
@@ -2564,16 +1957,6 @@ li {
   color: #3C2A10;
   font-family: "m1";
   font-size: 1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .code__inner {
@@ -2588,11 +1971,6 @@ li {
 .code__outer {
   margin: 0;
   padding: 3.1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .code__outer {
@@ -2604,16 +1982,6 @@ li {
   margin-top: 1.9rem;
   text-align: left;
   background-color: #fff;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .table {
@@ -2635,16 +2003,6 @@ li {
   padding-bottom: 1.6rem;
   padding-left: 1.9rem;
   width: 40%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .table__colum--one {
@@ -2661,16 +2019,6 @@ li {
 .table__colum--two {
   padding-left: 1.9rem;
   width: 60%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .table__colum--two {
@@ -2686,16 +2034,6 @@ li {
 .text-foot {
   margin-top: 1.9rem;
   padding-bottom: 11rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .text-foot {
@@ -2714,16 +2052,6 @@ li {
 
 .button-foot {
   margin-top: 1.9rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .button-foot {
@@ -2739,16 +2067,6 @@ li {
   padding-top: 1.8rem;
   padding-bottom: 1.9rem;
   width: 100%;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .button-foot__body {
@@ -2778,11 +2096,6 @@ li {
   width: 100%;
   height: 60%;
   background-color: black;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .map__background {
@@ -2797,11 +2110,6 @@ li {
   width: 100%;
   height: 166%;
   opacity: 0.6;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .map__background > iframe {
@@ -2817,11 +2125,6 @@ li {
   height: auto;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 2.1rem 1.7rem 2.1rem 2.3rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .map-body {
@@ -2836,11 +2139,6 @@ li {
   height: 2px;
   line-height: 1.5;
   background-color: #fff;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .map-body__separator {
@@ -2852,11 +2150,6 @@ li {
   font-size: 0.8rem;
   line-height: 2.35;
   color: #fff;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .map-body__content {
@@ -2867,11 +2160,6 @@ li {
   font-family: "m1-bold";
   font-size: 1.7rem;
   color: #fff;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 1025px) {
   .map-body__heading {
@@ -2888,11 +2176,6 @@ li {
   font-family: "m1";
   font-size: 1rem;
   color: #707070;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .m-pagenation__body {
@@ -2903,11 +2186,6 @@ li {
 }
 .m-pagenation__result {
   display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .m-pagenation__result {
@@ -2920,35 +2198,16 @@ li {
 }
 .m-pagenation__prev--text, .m-pagenation__next--text {
   margin: 0 0.5rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .m-pagenation__prev--text, .m-pagenation__next--text {
     display: none;
   }
 }
-.m-pagenation__prev {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-}
 @media (min-width: 600px) {
   .m-pagenation__prev {
     margin: 0 0.5rem 0 1rem;
   }
-}
-.m-pagenation__next {
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .m-pagenation__next {
@@ -2958,11 +2217,6 @@ li {
 
 .page {
   display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .page {
@@ -2982,11 +2236,6 @@ li {
 }
 .page-current {
   display: none;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .page-current {
@@ -3027,16 +2276,6 @@ li {
 
 .u-padding {
   padding: 0 1.1rem;
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
-  /*min-widthはこれ以上は小さくならないの意*/
-  /*heroのスマホ用画像*/
-  /*タブレットの切り替え*/
-  /*heroのタブレット用画像*/
-  /*pc切り替え*/
 }
 @media (min-width: 600px) {
   .u-padding {
