@@ -775,6 +775,7 @@ li {
   top: 5%;
   right: 2%;
   margin-left: auto;
+  cursor: pointer;
   font-weight: bold;
   font-size: 1.2rem;
   background: transparent;
@@ -998,6 +999,7 @@ li {
   position: absolute;
   width: 39px;
   height: 5px;
+  cursor: pointer;
   background: #707070;
 }
 .menu-button__close.is-open::before {

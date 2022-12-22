@@ -1,4 +1,4 @@
-@use '../../foundation/mixin.scss'as m;
+@use '../../foundation/mixin.scss' as m;
 @use 'sass:math';
 
 .menu {
@@ -9,7 +9,7 @@
 
   &__heading {
     display: none;
-  
+
     @include m.breakpoint(pc) {
       display: block;
       font-family: 'Roboto';
@@ -22,13 +22,13 @@
 
   &-button {
     border: 0px none;
-  
+
     &__close {
       /*×ボタン*/
       $btnWidth: 39px;
       $btnHeight: 5px;
       font-size: 0;
-    
+
       &::before,
       &::after {
         /*上下線*/
@@ -37,9 +37,10 @@
         position: absolute;
         width: $btnWidth;
         height: $btnHeight;
+        cursor: pointer;
         background: #707070;
       }
-    
+
       &.is-open {
         &::before {
           content: "";
@@ -52,7 +53,7 @@
           background: #707070;
           transform: rotate(45deg);
         }
-    
+
         &::after {
           content: "";
           display: block;
@@ -65,6 +66,7 @@
           transform: rotate(-45deg);
         }
       }
+
       @include m.breakpoint(pc) {
         display: none;
       }
